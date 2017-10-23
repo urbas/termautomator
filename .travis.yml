@@ -7,7 +7,6 @@ python:
   - 3.4
   - 3.3
   - 2.7
-  - 2.6
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install: pip install -U tox-travis
@@ -22,8 +21,8 @@ deploy:
   distributions: sdist bdist_wheel
   user: urbas
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: g0Mfz0YyVNC5i7uhCGuKcp9YCSTNIWX9N+hvvljGLb76JvNwR7fLNZwa3R7rk9/ybezXN9I/tD+eBxmttp8r1M2HOAUiLtIzCpWZPQH1KckxJQSoIi68HrRBwY9qYGJJLXXjMc/VikktPGr285LUXb6lZQffqBAvoTy4HhJcMjZiyebYxSetrCZN1HuW++ji+BnIYzlw6QjkXqj3bNHHDdnt8eu7MZU1MfSWd7vlgkt/PJIiXKopZAITyTd6uGJ/I4ypYUQi16YdWcgHcsBHuuyMDY7hP4sPQGvc3oSY+7W4UhBrFpwXPA9up2KU5dy4TosCrCAsEkknMY9OLv6R1CG+wp7kwyAYuOfizeAXsdVRjBFxH4QSdpv8sD39WnddR8rrtdlfV2mJBAew28/UcGsckRe5jKOXpBxPqq5uHS7YO7v7wJLneU5XhTCFWWFvPKO9Z6kfz9cnJsg+KYG3KHReBYvDYBUIvIEPum7KyosP5DbFX+wIzQGcIzcDmlsuT7Vg2iVzwyBbdkJfCLlh+09nevO7S9ebbl4nFEcRQoDi8RArTTqwsgyMYatnphI1sflaO/P3XZ9trZEPhyyy7EbNkSWM97W4ZJJfaB7mX3tB5od560wpeKQ4DKmULTmdCkmOjl+xJdoGMbYSpjmdpHKl26VdkXfNBmrVTbFyVFw=
   on:
     tags: true
-    repo: urbas/pibootcmdline
+    repo: urbas/termautomator
     python: 2.7

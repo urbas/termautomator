@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+import termautomator.app
+
+if __name__ == '__main__':
+    termautomator.app.run()

@@ -1,37 +1,37 @@
 =============
-pibootcmdline
+termautomator
 =============
 
 
-.. image:: https://img.shields.io/pypi/v/pibootcmdline.svg
-        :target: https://pypi.python.org/pypi/pibootcmdline
+.. image:: https://img.shields.io/pypi/v/termautomator.svg
+        :target: https://pypi.python.org/pypi/termautomator
 
-.. image:: https://img.shields.io/travis/urbas/pibootcmdline.svg
-        :target: https://travis-ci.org/urbas/pibootcmdline
+.. image:: https://img.shields.io/travis/urbas/termautomator.svg
+        :target: https://travis-ci.org/urbas/termautomator
 
-.. image:: https://readthedocs.org/projects/pibootcmdline/badge/?version=latest
-        :target: https://pibootcmdline.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/termautomator/badge/?version=latest
+        :target: https://termautomator.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/urbas/pibootcmdline/shield.svg
-     :target: https://pyup.io/repos/github/urbas/pibootcmdline/
+.. image:: https://pyup.io/repos/github/urbas/termautomator/shield.svg
+     :target: https://pyup.io/repos/github/urbas/termautomator/
      :alt: Updates
 
 
-Manipulate /boot/cmdline.txt programmatically with ease.
+Programmatically manipulate Raspberry Pi's /boot/cmdline.txt with ease.
 
 
 * Free software: MIT license
-* Documentation: https://pibootcmdline.readthedocs.io.
+* Documentation: https://termautomator.readthedocs.io.
 
 
 Features
 --------
 
-* TODO
+Opens a `tmux` session and plays through a script written in yaml.
 
 Credits
----------
+-------
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 

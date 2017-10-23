@@ -1,4 +1,4 @@
-Welcome to pibootcmdline's documentation!
+Welcome to termautomator's documentation!
 =========================================
 
 Contents:

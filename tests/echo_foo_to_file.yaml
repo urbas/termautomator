@@ -1,0 +1,4 @@
+tmux_session_name: echo_foo_to_file
+panes:
+  echo:
+    - line: echo foo > bar
